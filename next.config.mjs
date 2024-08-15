@@ -5,6 +5,9 @@ const nextConfig = {
           {
             hostname: 'api.chulabook.com',
           },  
+          {
+            hostname: 'utfs.io',
+          },
         ],
       },
 };
