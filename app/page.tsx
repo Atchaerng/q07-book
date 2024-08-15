@@ -5,8 +5,10 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-// const BASE_URL = "https://w06-p01.vercel.app/api/products";
-const BASE_URL = "https://script.google.com/macros/s/AKfycbwb4ovPyeXY1g66eIskiUcpQ8kjMBix1HznXwD-6-Je7tdmjMkFSpqtTMM9xIo-VQ41/exec?sheetName=items";
+//const BASE_URL = "https://w06-p01.vercel.app/api/products";
+const BASE_URL = "https://q07-book.vercel.app/api/products&quot";
+const BASE_URL = process.env.NEXT_PUBLIC_WEB_APP_URL+"https://script.google.com/macros/s/AKfycbwb4ovPyeXY1g66eIskiUcpQ8kjMBix1HznXwD-6-Je7tdmjMkFSpqtTMM9xIo-VQ41/exec?sheetName=items";
+//const BASE_URL = "https://script.google.com/macros/s/AKfycbwb4ovPyeXY1g66eIskiUcpQ8kjMBix1HznXwD-6-Je7tdmjMkFSpqtTMM9xIo-VQ41/exec?sheetName=items";
 
 interface Product {
   pid: string;
