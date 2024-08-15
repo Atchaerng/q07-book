@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 // const BASE_URL = "https://w06-p01.vercel.app/api/products";
-const BASE_URL = "https://script.google.com/macros/s/AKfycbxMT7K3HyItEaQYhndAK5IOlWCH-Pcdv32SfjaFvzaA1bxvz_0XYmuVzr3GRMjaqjMp/exec?sheetName=items";
+const BASE_URL = "https://script.google.com/macros/s/AKfycbwb4ovPyeXY1g66eIskiUcpQ8kjMBix1HznXwD-6-Je7tdmjMkFSpqtTMM9xIo-VQ41/exec?sheetName=items";
 
 interface Product {
   pid: string;
